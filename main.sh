@@ -111,7 +111,7 @@ Inter_f2(){
    banner
 }
 
-# intro
-# Inter_f1
-# trans_promte1
+intro
+Inter_f1
+trans_promte1
 Terminal

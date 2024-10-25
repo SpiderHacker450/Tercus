@@ -41,28 +41,28 @@ esac
 Terminal(){
   banner
   
- # folder="/Data_cus"
+ folder="/Data_cus"
 
-  # if [ -d "$folder"];then
-  #       echo"   "
-  # else
-  #      sudo mkdir /Data_cus 
-  # fi
-  # folder1="/Data_cus/old"
+  if [ -d "$folder"];then
+        echo"   "
+  else
+       sudo mkdir /Data_cus 
+  fi
+  folder1="/Data_cus/old"
 
-  # if [ -d "$folder"];then
-  #       echo"   "
-  # else
-  #      sudo mkdir /Data_cus/old
-  # fi
+  if [ -d "$folder"];then
+        echo"   "
+  else
+       sudo mkdir /Data_cus/old
+  fi
 
-  # file="/Data_cus/old/.bashrc"
+  file="/Data_cus/old/.bashrc"
 
-  # if [ -f "$file"]; then
-  #   echo "   "
-  # else
-  #   cp $HOME/.bashrc /Data_cus/old/
-  # fi
+  if [ -f "$file"]; then
+    echo "   "
+  else
+    cp $HOME/.bashrc /Data_cus/old/
+  fi
 
 
 

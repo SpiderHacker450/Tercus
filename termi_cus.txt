@@ -1,0 +1,15 @@
+<R> - Red
+<Y> - Yellow
+<G> - Green
+<B> - Blue 
+<P> - Purple 
+<Cy> - Cyno
+<Rs> - Default 
+<Cl> - Close The color range [IMP]
+<USER> - user
+<HOST> - host
+<DIR> - Directory 
+<DATE> - Date
+<NL> - New line 
+<TIME24> - time in 24hr
+<TIME12> - time in 12hr

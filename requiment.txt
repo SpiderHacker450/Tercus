@@ -1,0 +1,2 @@
+sudo apt install figlet xterm 
+sudo apt install xfonts-base

@@ -13,15 +13,15 @@ def replace_multiple_words_in_file(file_path, replacements):
 
 # Example usage
 replacements = {
-    "<R>": "\\[\\033[01;31m]",
-    "<G>": "\\[\\033[01;32m]",
-    "<Y>": "\\[\\033[01;33m]",
-    "<B>": "\\[\\033[01;34m]",
-    "<P>": "\\[\\033[01;35m]",
-    "<Cy>": "\\[\\033[01;36m]",
-    "<W>": "\\[\\033[01;37m]",
-    "<Rs>": "\\[\\033[01;00m]",
-    "<Cl>":"\\[\\033[00m\\]",
+    "<R>": "\\[\\e[0;31m\\]",
+    "<G>": "\\[\\e[0;32m\\]",
+    "<Y>": "\\[\\e[0;33m\\]",
+    "<B>": "\\[\\e[0;34m\\]",
+    "<P>": "\\[\\e[0;35m\\]",
+    "<Cy>": "\\[\\e[0;36m\\]",
+    "<W>": "\\[\\e[0;37m\\]",
+    "<Rs>": "\\[\\e[0;00m\\]",
+    "<Cl>":"\\[\\e[0m\\]",
     "<USER>" : "\\u",
     "<HOST>" : "\\h",
     "<DIR>" : "\\w",
@@ -31,5 +31,8 @@ replacements = {
     "<NL>" : "\\n"
 }
 
-replace_multiple_words_in_file('/Data_cus/code_cus.txt', replacements)
+replace_multiple_words_in_file('/temp_cus/Data_cus/code_cus.txt', replacements)
+
+
+
 

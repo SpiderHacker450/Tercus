@@ -38,7 +38,7 @@ Setup(){
          AI_text "Creating folder"
          sudo cp -r Data_cus /temp_cus/Data_cus
          AI_text "${green}Done!${Cl}"
-         chmod +x /temp_cus/Data_cus/main.sh
+         sudo chmod +x /temp_cus/Data_cus/main.sh
     fi
 
     if [ -f "/temp_cus/Data_cus/.bashrc" ];then
